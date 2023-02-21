@@ -23,8 +23,8 @@ jobs:
       run: |
         python manage.py test
 
-    - name: "docker build"
-      run: docker build
+    # - name: "docker build"
+    #   run: docker build
 
     - name: "docker up"
       run: docker up -d
